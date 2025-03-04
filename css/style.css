@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'fighter';
-    src: url(/assets/font/street.otf);
+    src: url(assets/font/street.otf);
 }
 :root{
     font-family: 'fighter';
