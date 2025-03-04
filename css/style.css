@@ -1,0 +1,95 @@
+@font-face {
+    font-family: 'fighter';
+    src: url(/assets/font/street.otf);
+}
+:root{
+    font-family: 'fighter';
+    text-align: center;
+    color: white;
+    background-image: url(../assets/img/fondo2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.titulo{
+    color: crimson;
+    font-size: 46px;
+}
+table{
+    width: 600px;
+    height: 800px;
+    border: 10px outset rgb(237, 175, 5);
+    border-radius: 10px;
+    background-color: black;
+    margin: 0 auto;
+}
+.a1{
+    width: 40px;
+    height: 40px;
+    background-image: url(../assets/img/fondocabecera.jpg);
+    opacity: 0.5;
+    size: 40px;
+    color: whitesmoke;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+
+}
+tr{
+    width: 40px;
+    height: 40px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: darkorange;
+}
+td{
+    width: 40px;
+    height: 40px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: darkorange;
+}
+.titulo2{
+    font-family: 'fighter';
+    color: crimson;
+    font-size: 28px;
+}
+form{
+    width: 600px;
+    height: 1100px;
+    border: 10px outset rgb(237, 175, 5);
+    color: white;
+    border-radius: 10px;
+    background-color: black;
+    margin: 0 auto;
+    font-size: 16px;
+    font-family: Verdana;
+}
+legend{
+    font-family: 'street';
+    font-size: 14px;
+    color: rgb(237, 175, 5);
+}
+textarea{
+    width: 560px;
+    height: 150px;
+}
+button{
+    border: 1px solid crimson;
+    background-color: crimson;
+    font-family: 'street';
+    font-size: 18px;
+    color: white;
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    margin-left: 65px;
+    margin-bottom: 10px;
+}
+div{
+    align-self: center;
+}
